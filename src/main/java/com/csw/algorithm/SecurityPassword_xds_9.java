@@ -11,11 +11,11 @@ public class SecurityPassword_xds_9 {
         int maxLength = 9;
         //生成个数
         int numBer = 11;
-        dxsz(maxLength, numBer);//大写+小写+数字
+        dxs(maxLength, numBer);//大写+小写+数字
 
     }
 
-    private static void dxsz(int maxLength, int numBer) {
+    private static void dxs(int maxLength, int numBer) {
         String[] a1 = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",};
         String[] a2 = {"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
         String[] a3 = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",};

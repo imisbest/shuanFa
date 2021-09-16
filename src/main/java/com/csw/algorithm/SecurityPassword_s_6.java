@@ -11,11 +11,11 @@ public class SecurityPassword_s_6 {
         int maxLength = 6;
         //生成个数
         int numBer = 11;
-        dxsz(maxLength, numBer);//数字
+        s(maxLength, numBer);//数字
 
     }
 
-    private static void dxsz(int maxLength, int numBer) {
+    private static void s(int maxLength, int numBer) {
         String[] a1 = {"0", "1"};
         String[] a2 = {"2", "3"};
         String[] a3 = {"4", "5"};
