@@ -19,7 +19,7 @@ public class SecurityPassword_s_6 {
         String[] a1 = {"0", "1"};
         String[] a2 = {"2", "3"};
         String[] a3 = {"4", "5"};
-        String[] a4 = {"6", "7",};
+        String[] a4 = {"6", "7"};
         String[] a5 = {"8", "9"};
         for (int n = 0; n < numBer; n++) {
             StringBuilder base = new StringBuilder(a1[(int) (Math.random() * (a1.length))] + a2[(int) (Math.random() * (a2.length))] +
