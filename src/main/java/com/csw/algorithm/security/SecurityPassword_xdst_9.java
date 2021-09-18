@@ -22,7 +22,7 @@ public class SecurityPassword_xdst_9 {
         String[] a4 = {"N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
         String[] a5 = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
         String[] a6 = {"!", "@", "#", "$", "%", "^", "&", "*", "(", ")"};
-        String[] a7 = {"~", "_", "+", "{", "}", ":", "<", ">", "?", "|"};
+        String[] a7 = {"~", "_", "+", "{", "}", ":", ">", "?", "|"};
         for (int n = 0; n < numBer; n++) {
             StringBuilder base = new StringBuilder(
                     a1[(int) (Math.random() * (a1.length))] +
