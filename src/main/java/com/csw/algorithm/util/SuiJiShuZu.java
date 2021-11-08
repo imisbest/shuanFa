@@ -1,6 +1,7 @@
 package com.csw.algorithm.util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -35,13 +36,13 @@ public class SuiJiShuZu {
         }
         //
         System.out.println("aac结果是：");
-        for (int i : aac) {
+        Arrays.stream(aac).forEach(i -> {
             if (aac[aac.length - 1] == i) {
                 System.out.print(i);
             } else {
                 System.out.print(i + ",");
             }
-        }
+        });
         System.out.println();
 
     }
