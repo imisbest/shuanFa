@@ -2,10 +2,10 @@ package com.csw.algorithm;
 
 public class Memery {
     public static void main(String[] args) {
-        int total = 16;
+        int total = 8;
         int memerySize = total * 1000;
-        int dx4 = memerySize / 4;
-        int dx5 = memerySize / 5;
+        int dx4 = memerySize / 8;
+        int dx5 = memerySize / 16;
         int maxSize = dx4 - dx5;
         int minSize = dx5;
         System.out.println("maxSize]" + maxSize);
